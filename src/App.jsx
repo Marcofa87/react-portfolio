@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Navbar from "./ui/Navbar/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </header>
         <main>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
