@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import DarkMode from "./Navbarstates/DarkMode";
+import Language from "./Navbarstates/Language";
 
 export default function Navbar() {
   const links = [
@@ -8,7 +10,9 @@ export default function Navbar() {
   ];
   return (
     <nav>
-      <ul className="text-slate-400 flex justify-end p-6 ">
+      <ul className="text-slate-400 flex justify-end border-b-2">
+        <DarkMode />
+        <Language />
         {links.map((link, index) => (
           <li key={index} className="p-4">
             <NavLink to={link.path}>{link.text}</NavLink>
