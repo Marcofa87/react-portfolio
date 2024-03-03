@@ -1,3 +1,5 @@
+import Buttons from "../../../shared/Buttons";
+
 export default function DarkMode() {
-  return <button>✨</button>;
+  return <Buttons>✨</Buttons>;
 }

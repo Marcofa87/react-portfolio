@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import DarkMode from "./Navbarstates/DarkMode";
 import Language from "./Navbarstates/Language";
+import NavbarImage from "./NavbarImage/NavbarImage";
 
 export default function Navbar() {
   const links = [
@@ -9,16 +10,20 @@ export default function Navbar() {
     { path: "/contact", text: "Contact" },
   ];
   return (
-    <nav>
-      <ul className="text-slate-400 flex justify-end border-b-2">
+    <>
+      <nav className="flex justify-between border-b-2">
+        <NavbarImage />
         <DarkMode />
         <Language />
-        {links.map((link, index) => (
-          <li key={index} className="p-4">
-            <NavLink to={link.path}>{link.text}</NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
+
+        <ul className=" text-slate-400 flex justify-end ">
+          {links.map((link, index) => (
+            <li key={index} className="p-4">
+              <NavLink to={link.path}>{link.text}</NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </>
   );
 }
