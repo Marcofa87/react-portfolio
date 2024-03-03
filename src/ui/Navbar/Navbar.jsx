@@ -11,7 +11,7 @@ export default function Navbar() {
   ];
   return (
     <>
-      <nav className="flex justify-between border-b-2">
+      <nav className="flex justify-around border-b-2">
         <NavbarImage />
         <DarkMode />
         <Language />
