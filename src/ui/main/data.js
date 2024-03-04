@@ -1,15 +1,15 @@
 export const projectData = {
   id: 1,
   image: "../../assets/40005137_10217413760481971_5456129146335789056_n.jpg",
-  title: "Titolo dell'immagine",
+  title: "Filter-Book-React-app",
   description:
-    "Descrizione dell'immagine Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price",
   sourceCodeLink: {
-    link: "#",
-    source: "Source",
+    link: "https://github.com/Marcofa87/filter-book-app-react",
+    source: "Source code",
   },
   demoLink: {
-    link: "#",
+    link: "https://book-table-app-react.netlify.app/",
     demo: "Demo",
   },
 };

@@ -13,7 +13,7 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <main className="m-12 flex justify-center content-center ">
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
