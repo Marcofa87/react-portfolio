@@ -18,7 +18,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="mx-auto m-40 md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
+      <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
         <img
           src={projectData[selectedProjectIndex].image}
           alt=""
