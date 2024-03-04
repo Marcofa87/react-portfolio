@@ -2,23 +2,27 @@ import { projectData } from "../ui/main/data";
 
 export default function Projects() {
   return (
-    <div className="container mx-auto md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
+    <div className="container mx-auto m-40 md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
       <img src={projectData.image} alt="" className="w-full rounded-lg" />
       <div className="p-6">
-        <p className="text-gray-800 text-lg font-semibold mb-2 text-center">
+        <p className="text-gray-800  text-lg font-bold mb-2 text-center">
           {projectData.title}
         </p>
-        <p className="text-gray-600 text-sm mb-4">{projectData.description}</p>
+        <p className="text-gray-800 text-sm mb-4 font-bold">
+          {projectData.description}
+        </p>
         <div className="flex justify-between items-center">
           <a
             href={projectData.sourceCodeLink.link}
             className="text-blue-500 hover:underline"
+            target="_blank"
           >
             {projectData.sourceCodeLink.source}
           </a>
           <a
             href={projectData.demoLink.link}
             className="text-blue-500 hover:underline"
+            target="_blank"
           >
             {projectData.demoLink.demo}
           </a>
