@@ -16,12 +16,6 @@ export default function Projects() {
     );
   };
 
-  /*   const prevProject = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projectData.length - 1 : prevIndex - 1
-    );
-  }; */
-
   return (
     <>
       <div className="container mx-auto m-40 md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
