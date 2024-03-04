@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="">
       <p className="text-slate-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
         repellendus eos! Delectus, quo asperiores. Quibusdam minus voluptate
