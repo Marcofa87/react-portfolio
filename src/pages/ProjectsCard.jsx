@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { projectData } from "../ui/main/data";
 
-export default function Projects() {
+export default function ProjectsCard() {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
 
   const currentProject = projectData[selectedProjectIndex];

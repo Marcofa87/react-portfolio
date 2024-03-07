@@ -1,7 +1,7 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-import Projects from "./pages/Projects";
+import ProjectsCard from "./pages/ProjectsCard";
 import Contact from "./pages/Contact";
 import Navbar from "./ui/Navbar/Navbar";
 import Home from "./pages/Home";
