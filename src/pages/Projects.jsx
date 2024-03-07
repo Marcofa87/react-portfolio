@@ -4,6 +4,8 @@ import { projectData } from "../ui/main/data";
 export default function Projects() {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
 
+  const currentProject = projectData[selectedProjectIndex];
+
   const handleNextIndex = () => {
     setSelectedProjectIndex((nextIndex) =>
       nextIndex === projectData.length - 1 ? 0 : nextIndex + 1
@@ -19,32 +21,28 @@ export default function Projects() {
   return (
     <>
       <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
-        <img
-          src={projectData[selectedProjectIndex].image}
-          alt=""
-          className="w-full rounded-lg"
-        />
+        <img src={currentProject.image} alt="" className="w-full rounded-lg" />
         <div className="p-6">
           <p className="text-gray-800  text-lg font-bold mb-2 text-center">
-            {projectData[selectedProjectIndex].title}
+            {currentProject.title} {currentProject.id} / {projectData.length}
           </p>
           <p className="text-gray-800 text-sm mb-4 font-bold">
-            {projectData[selectedProjectIndex].description}
+            {currentProject.description}
           </p>
           <div className="flex justify-between items-center">
             <a
-              href={projectData[selectedProjectIndex].sourceCodeLink.link}
+              href={currentProject.sourceCodeLink.link}
               className="text-blue-500 hover:underline"
               target="_blank"
             >
-              {projectData[selectedProjectIndex].sourceCodeLink.source}
+              {currentProject.sourceCodeLink.source}
             </a>
             <a
-              href={projectData[selectedProjectIndex].demoLink.link}
+              href={currentProject.demoLink.link}
               className="text-blue-500 hover:underline"
               target="_blank"
             >
-              {projectData[selectedProjectIndex].demoLink.demo}
+              {currentProject.demoLink.demo}
             </a>
           </div>
           <div className="flex justify-between mt-4">
