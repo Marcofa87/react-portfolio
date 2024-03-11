@@ -13,7 +13,7 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <main>
+        <main className="p-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
