@@ -21,10 +21,13 @@ export default function ProjectsCard() {
   return (
     <>
       <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
+        <h2 className="text-center text-2xl text-gray-800 font-bold p-2">
+          Project {currentProject.id} / {projectData.length}
+        </h2>
         <img src={currentProject.image} alt="" className="w-full rounded-lg" />
         <div className="p-6">
           <p className="text-gray-800  text-lg font-bold mb-2 text-center">
-            {currentProject.title} {currentProject.id} / {projectData.length}
+            {currentProject.title}
           </p>
           <p className="text-gray-800 text-sm mb-4 font-bold">
             {currentProject.description}

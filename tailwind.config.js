@@ -2,11 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      backgroundImage: {
-        "about-section": "url('./assets/new_york.jpeg')",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
