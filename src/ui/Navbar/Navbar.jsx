@@ -9,17 +9,22 @@ export default function Navbar() {
     { path: "/projects", text: "Projects" },
     { path: "/contact", text: "Contact" },
   ];
+
   return (
     <>
-      <nav className="flex justify-around border-b-2 p-2">
-        <NavbarImage />
-        <DarkMode />
-        <Language />
+      <nav className="flex flex-col md:flex-row items-center justify-between border-b-2 p-2">
+        <div className="flex items-center">
+          <NavbarImage />
+          <DarkMode />
+          <Language />
+        </div>
 
-        <ul className=" text-slate-400 flex justify-end ">
+        <ul className="md:flex text-slate-400">
           {links.map((link, index) => (
             <li key={index} className="p-4">
-              <NavLink to={link.path}>{link.text}</NavLink>
+              <NavLink to={link.path} className="hover:underline">
+                {link.text}
+              </NavLink>
             </li>
           ))}
         </ul>
