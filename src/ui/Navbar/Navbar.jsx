@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-col md:flex-row items-center justify-between border-b-2 p-2">
+      <nav className="flex flex-col md:flex-row items-center justify-between md:border-b-2 p-2">
         <div className="flex items-center">
           <NavbarImage />
           <DarkMode />
