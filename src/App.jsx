@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-slate-800 min-h-screen w-full">
+    <div className="bg-slate-800 min-h-screen w-full font-mono">
       <BrowserRouter>
         <header>
           <Navbar />

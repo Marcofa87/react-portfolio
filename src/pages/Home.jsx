@@ -14,7 +14,7 @@ export default function Home() {
               I&apos;m studying Front-End Web develpment since 2 Years, feel
               free to contact me if you&apos;re interested!
             </p>
-            <Buttons>Contact me!</Buttons>
+            <Buttons>Download CV</Buttons>
           </div>
           <div>
             <img

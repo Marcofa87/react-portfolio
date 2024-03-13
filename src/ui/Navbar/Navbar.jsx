@@ -5,7 +5,7 @@ import NavbarImage from "./NavbarImage/NavbarImage";
 
 export default function Navbar() {
   const links = [
-    { path: "/about", text: "About" },
+    { path: "/about", text: "About Me" },
     { path: "/projects", text: "Projects" },
     { path: "/contact", text: "Contact" },
   ];
