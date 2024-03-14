@@ -20,29 +20,33 @@ export default function ProjectsCard() {
 
   return (
     <>
-      <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-200  rounded-lg overflow-hidden p-2 shadow-2xl">
-        <h2 className="text-center text-2xl text-gray-800 font-bold">
+      <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-100  rounded-lg overflow-hidden p-6 shadow-2xl">
+        <h2 className="text-center text-2xl text-gray-900 font-bold p-4">
           Project {currentProject.id} / {projectData.length}
         </h2>
-        <img src={currentProject.image} alt="" className="w-full rounded-lg" />
+        <img
+          src={currentProject.image}
+          alt="screen of projects"
+          className="w-5/6 rounded-lg m-auto "
+        />
         <div className="p-6">
-          <p className="text-gray-800  text-lg font-bold mb-2 text-center">
+          <p className="text-slate-900   font-bold text-2xl mb-2 text-center p-2">
             {currentProject.title}
           </p>
-          <p className="text-gray-800 text-sm mb-4 font-bold">
+          <p className="text-gray-900 text-sm mb-4 font-bold p-4">
             {currentProject.description}
           </p>
           <div className="flex justify-between items-center">
             <a
               href={currentProject.sourceCodeLink.link}
-              className="text-blue-500 hover:underline"
+              className="text-blue-700 hover:underline font-bold"
               target="_blank"
             >
               {currentProject.sourceCodeLink.source}
             </a>
             <a
               href={currentProject.demoLink.link}
-              className="text-blue-500 hover:underline"
+              className="text-blue-700 hover:underline font-bold"
               target="_blank"
             >
               {currentProject.demoLink.demo}

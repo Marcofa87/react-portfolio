@@ -31,7 +31,7 @@ export const projectData = [
   },
   {
     id: 3,
-    image: "../../assets/40005137_10217413760481971_5456129146335789056_n.jpg",
+    image: "../../../assets/filter-book-app.avif",
     title: "Filter-Book-React-app",
     description:
       "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price",
