@@ -18,6 +18,7 @@ export default function Home() {
           </div>
           <div className="p-6 flex justify-center">
             <img
+              alt="picture of me"
               src="../../assets/40005137_10217413760481971_5456129146335789056_n.jpg"
               className="shape opacity-65  "
             />
