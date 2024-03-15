@@ -1,7 +1,10 @@
 export default function About() {
   return (
     <>
-      <div className="p-8 border-2 w-10/12 text-center">
+      <div className="p-8 border-2 w-10/12 text-center m-0">
+        <h1 className="font-bold text-slate-50 text-2xl p-4">
+          Something about me
+        </h1>
         <p className="text-slate-200">
           Welcome to my corner of the web! I&apos;m a passionate junior
           front-end developer with hands-on experience in crafting dynamic web

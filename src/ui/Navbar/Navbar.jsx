@@ -14,7 +14,12 @@ export default function Navbar() {
     <>
       <nav className="flex flex-col md:flex-row items-center justify-between md:border-b-2 p-2">
         <div className="flex items-center justify-between md:w-2/4">
-          <NavbarImage />
+          <NavLink
+            to="/"
+            className="justify-start w-1/4 hidden md:block md:w-2/4"
+          >
+            <NavbarImage />
+          </NavLink>
           <DarkMode />
           <Language />
         </div>
