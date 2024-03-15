@@ -20,51 +20,59 @@ export default function ProjectsCard() {
 
   return (
     <>
-      <div className="mx-auto md:w-6/12 lg:w-4/12 bg-slate-100  rounded-lg overflow-hidden p-6 shadow-2xl">
-        <h2 className="text-center text-2xl text-gray-900 font-bold p-4">
-          Project {currentProject.id} / {projectData.length}
-        </h2>
-        <img
-          src={currentProject.image}
-          alt="screen of projects"
-          className="w-5/6 rounded-lg m-auto "
+      <div className="relative h-screen w-screen overflow-hidden">
+        <div
+          className="absolute inset-0 h-full w-full bg-[url(../../assets/code-projects-background.jpg)] bg-cover bg-center"
+          style={{ opacity: 0.2 }} // Imposta l'opacità dell'immagine di sfondo
         />
-        <div className="p-6">
-          <p className="text-slate-900   font-bold text-2xl mb-2 text-center p-2">
-            {currentProject.title}
-          </p>
-          <p className="text-gray-900 text-sm mb-4 font-bold p-4">
-            {currentProject.description}
-          </p>
-          <div className="flex justify-between items-center">
-            <a
-              href={currentProject.sourceCodeLink.link}
-              className="text-blue-700 hover:underline font-bold"
-              target="_blank"
-            >
-              {currentProject.sourceCodeLink.source}
-            </a>
-            <a
-              href={currentProject.demoLink.link}
-              className="text-blue-700 hover:underline font-bold"
-              target="_blank"
-            >
-              {currentProject.demoLink.demo}
-            </a>
-          </div>
-          <div className="flex justify-between mt-4">
-            <button
-              className="px-4 py-2 rounded-md bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
-              onClick={handlePrevIndex}
-            >
-              Back
-            </button>
-            <button
-              className="px-4 py-2 rounded-lg bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
-              onClick={handleNextIndex}
-            >
-              Next
-            </button>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-full max-w-md bg-slate-50 rounded-lg shadow-md p-6">
+            <h2 className="text-center text-2xl text-gray-900 font-bold mb-4">
+              Project {currentProject.id} / {projectData.length}
+            </h2>
+            <img
+              src={currentProject.image}
+              alt="screen of projects"
+              className="w-full rounded-lg mb-4"
+            />
+            <p className="text-slate-900 font-bold text-2xl mb-2 text-center">
+              {currentProject.title}
+            </p>
+            <p className="text-gray-900 text-sm mb-4 font-bold">
+              {currentProject.description}
+            </p>
+            <div className="flex justify-between mb-4">
+              <a
+                href={currentProject.sourceCodeLink.link}
+                className="text-blue-700 hover:underline font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {currentProject.sourceCodeLink.source}
+              </a>
+              <a
+                href={currentProject.demoLink.link}
+                className="text-blue-700 hover:underline font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {currentProject.demoLink.demo}
+              </a>
+            </div>
+            <div className="flex justify-between">
+              <button
+                className="px-4 py-2 rounded-md bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+                onClick={handlePrevIndex}
+              >
+                Back
+              </button>
+              <button
+                className="px-4 py-2 rounded-lg bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+                onClick={handleNextIndex}
+              >
+                Next
+              </button>
+            </div>
           </div>
         </div>
       </div>

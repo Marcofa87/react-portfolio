@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="p-4 lg:w-4/5 lg:m-auto">
       <p className="text-slate-50">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores vel,
         recusandae, saepe est placeat totam nisi eveniet accusamus at sunt

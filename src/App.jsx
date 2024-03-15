@@ -16,7 +16,7 @@ function App() {
           <header>
             <Navbar />
           </header>
-          <main className="flex justify-center p-16 flex-grow">
+          <main className="flex justify-center flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
