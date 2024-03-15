@@ -33,7 +33,7 @@ export default function ProjectsCard() {
             <img
               src={currentProject.image}
               alt="screen of projects"
-              className="w-full rounded-lg mb-4"
+              className="w-full rounded-lg mb-4 border-2 border-amber-700"
             />
             <p className="text-slate-900 font-bold text-2xl mb-2 text-center">
               {currentProject.title}
