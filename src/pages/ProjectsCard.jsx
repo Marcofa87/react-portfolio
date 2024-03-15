@@ -23,7 +23,7 @@ export default function ProjectsCard() {
       <div className="relative h-screen w-screen overflow-hidden">
         <div
           className="absolute inset-0 h-full w-full bg-[url(../../assets/code-projects-background.jpg)] bg-cover bg-center"
-          style={{ opacity: 0.2 }} // Imposta l'opacità dell'immagine di sfondo
+          style={{ opacity: 0.2 }}
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full max-w-md bg-slate-50 rounded-lg shadow-md p-6">
