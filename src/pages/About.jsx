@@ -3,7 +3,7 @@ export default function About() {
     <>
       <div className="relative h-screen w-screen overflow-hidden flex justify-center items-center">
         <div
-          className="absolute inset-0 h-full w-full p-8 border-2 text-center m-0 bg-[url(../../assets/40005137_10217413760481971_5456129146335789056_n.jpg)] bg-cover bg-center"
+          className="absolute inset-0 h-full w-full p-8 border-2 text-center m-0 bg-[url(../../assets/new_york.webp)] bg-cover bg-center"
           style={{ opacity: 0.2 }}
         ></div>
         <div className="w-5/6 text-center">
