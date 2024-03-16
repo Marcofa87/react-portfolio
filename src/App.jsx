@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./ui/footer/Footer";
 import "./index.css";
+import Loader from "./ui/loading/Loader";
 
 const About = lazy(() => import("./pages/About"));
 const ProjectsCard = lazy(() => import("./pages/ProjectsCard"));
@@ -14,7 +15,7 @@ function App() {
     <>
       <div className="bg-slate-800 min-h-screen w-full font-mono flex flex-col">
         <BrowserRouter>
-          <Suspense fallback={<div className="loader"></div>}>
+          <Suspense fallback={<Loader />}>
             <header>
               <Navbar />
             </header>
