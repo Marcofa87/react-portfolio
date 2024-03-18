@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <>
-      <div className="relative h-screen w-screen overflow-hidden flex justify-center items-center">
+      <div className="relative h-screen w-screen overflow-hidden flex justify-center p-16">
         <div
-          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/new_york.webp)] bg-cover bg-center"
+          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/thai.webp)] bg-cover bg-center"
           style={{ opacity: 0.2 }}
         ></div>
         <div className="w-5/6 text-center">
