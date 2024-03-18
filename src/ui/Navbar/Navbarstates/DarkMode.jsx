@@ -1,5 +1,9 @@
+import { useTheme } from "../../../context/ThemeContext";
 import Buttons from "../../../shared/Buttons";
 
 export default function DarkMode() {
-  return <Buttons>🔅</Buttons>;
+  const { theme, toggleTheme } = useTheme();
+  return (
+    <Buttons onClick={toggleTheme}>{theme === "on" ? "🔅" : "🌝"}</Buttons>
+  );
 }
