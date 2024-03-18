@@ -3,13 +3,11 @@ export default function About() {
     <>
       <div className="relative h-screen w-screen overflow-hidden flex justify-center items-center">
         <div
-          className="absolute inset-0 h-full w-full p-8 border-2 text-center m-0 bg-[url(../../assets/new_york.webp)] bg-cover bg-center"
+          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/new_york.webp)] bg-cover bg-center"
           style={{ opacity: 0.2 }}
         ></div>
         <div className="w-5/6 text-center">
-          <h1 className="font-bold text-slate-50 text-2xl p-4">
-            Something about me
-          </h1>
+          <h1 className="font-bold text-slate-50 p-4">Something about me</h1>
           <p className="text-slate-50">
             Welcome to my corner of the web! I&apos;m a passionate junior
             front-end developer with hands-on experience in crafting dynamic web
