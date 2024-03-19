@@ -18,7 +18,7 @@ const socialIcons = [
 
 export default function Footer() {
   return (
-    <ul className="flex justify-end text-slate-50 font-bold p-6">
+    <ul className="flex justify-end  font-bold p-6">
       {socialIcons.map((socialIcon, index) => (
         <li key={index} className="p-2 text-3xl">
           <a href={socialIcon.link} target="_blank">

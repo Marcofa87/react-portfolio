@@ -9,8 +9,13 @@ export const ThemeProvider = ({ children }) => {
     setTheme((prevTheme) => (prevTheme === "on" ? "off" : "on"));
   };
 
+  const backgroundThemeColor = theme === "on" ? "bg-slate-900" : "bg-slate-50";
+  const textThemeColor = theme === "on" ? "text-slate-50" : "text-slate-950";
+
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider
+      value={{ theme, toggleTheme, backgroundThemeColor, textThemeColor }}
+    >
       {children}
     </ThemeContext.Provider>
   );

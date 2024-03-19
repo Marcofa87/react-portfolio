@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./ui/footer/Footer";
 import "./index.css";
 import Loader from "./ui/loading/Loader";
+import { useTheme } from "./context/ThemeContext";
 
 const About = lazy(() => import("./pages/About"));
 const ProjectsCard = lazy(() => import("./pages/ProjectsCard"));
@@ -11,9 +12,14 @@ const Navbar = lazy(() => import("./ui/Navbar/Navbar"));
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {
+  const { theme, backgroundThemeColor, textThemeColor } = useTheme();
+
+  console.log(theme);
   return (
     <>
-      <div className="bg-slate-800 min-h-screen w-full font-mono flex flex-col">
+      <div
+        className={` font-bold min-h-screen w-full font-mono flex flex-col ${backgroundThemeColor} ${textThemeColor}`}
+      >
         <BrowserRouter>
           <Suspense fallback={<Loader />}>
             <header>

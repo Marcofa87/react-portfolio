@@ -24,7 +24,7 @@ export default function Navbar() {
           <Language />
         </div>
 
-        <ul className="md:flex text-slate-50 font-bold">
+        <ul className="md:flex font-bold">
           {links.map((link, index) => (
             <li key={index} className="p-4">
               <NavLink to={link.path} className="hover:underline">

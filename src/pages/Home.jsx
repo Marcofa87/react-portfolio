@@ -14,7 +14,7 @@ export default function Home() {
               </span>
               <br /> Front-End Developer
             </h1>
-            <p className="text-slate-50 p-8 font-bold">
+            <p className=" p-8 font-bold">
               I&apos;m studying Front-End Web develpment since 2 Years, feel
               free to contact me if you&apos;re interested!
             </p>
