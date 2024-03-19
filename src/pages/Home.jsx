@@ -1,4 +1,4 @@
-import Buttons from "../shared/Buttons";
+import DownloadButton from "../ui/DownloadPdf";
 import "../ui/main/mainimg.css";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
               I&apos;m studying Front-End Web develpment since 2 Years, feel
               free to contact me if you&apos;re interested!
             </p>
-            <Buttons>Download CV</Buttons>
+            <DownloadButton />
           </div>
           <div className="p-6 flex justify-center">
             <img
