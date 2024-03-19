@@ -9,7 +9,8 @@ export const ThemeProvider = ({ children }) => {
     setTheme((prevTheme) => (prevTheme === "on" ? "off" : "on"));
   };
 
-  const backgroundThemeColor = theme === "on" ? "bg-slate-900" : "bg-slate-50";
+  const backgroundThemeColor =
+    theme === "on" ? "bg-slate-900" : "bg-neutral-100";
   const textThemeColor = theme === "on" ? "text-slate-50" : "text-slate-950";
 
   return (

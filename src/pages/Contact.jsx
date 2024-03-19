@@ -9,3 +9,8 @@ export default function Contact() {
     </div>
   );
 }
+
+/*  <div
+          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/thai.webp)] bg-cover bg-center"
+          style={theme === "on" ? { opacity: 0.2 } : { opacity: 0.5 }}
+        ></div> */

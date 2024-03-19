@@ -1,15 +1,8 @@
-import { useTheme } from "../context/ThemeContext";
-
 export default function About() {
-  const { theme } = useTheme();
   return (
     <>
       <div className="relative h-screen w-screen overflow-hidden flex justify-center p-16">
-        <div
-          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/thai.webp)] bg-cover bg-center"
-          style={theme === "on" ? { opacity: 0.2 } : { opacity: 0 }}
-        ></div>
-        <div className="w-5/6 text-center">
+        <div className="w-5/6 text-center absolute">
           <h1 className="font-bold p-4">Something about me</h1>
           <p>
             Welcome to my corner of the web! I&apos;m a passionate junior

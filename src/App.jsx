@@ -12,9 +12,8 @@ const Navbar = lazy(() => import("./ui/Navbar/Navbar"));
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {
-  const { theme, backgroundThemeColor, textThemeColor } = useTheme();
+  const { backgroundThemeColor, textThemeColor } = useTheme();
 
-  console.log(theme);
   return (
     <>
       <div
