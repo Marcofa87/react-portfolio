@@ -114,4 +114,18 @@ export const projectData = [
       demo: "Demo",
     },
   },
+  {
+    id: 9,
+    image: "",
+    title: "Test",
+    description: "test",
+    sourceCodeLink: {
+      link: "https://github.com/Marcofa87/Marcofa87-Netflix-Clone",
+      source: "Source code",
+    },
+    demoLink: {
+      link: "https://js-netflix.netlify.app/",
+      demo: "Demo",
+    },
+  },
 ];

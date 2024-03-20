@@ -4,6 +4,8 @@ import { useTheme } from "../context/ThemeContext";
 
 export default function ProjectsCard() {
   const { theme } = useTheme();
+
+  const imgNotFound = "../../assets/app_pictures/no_imagine.webp";
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
 
   const currentProject = projectData[selectedProjectIndex];
@@ -33,7 +35,7 @@ export default function ProjectsCard() {
               Project {currentProject.id} / {projectData.length}
             </h2>
             <img
-              src={currentProject.image}
+              src={!currentProject.image ? imgNotFound : currentProject.image}
               alt="screen of projects"
               className="w-full rounded-lg mb-4 border-2 border-amber-700"
             />
