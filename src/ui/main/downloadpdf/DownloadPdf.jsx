@@ -1,7 +1,7 @@
 import { saveAs } from "file-saver";
-import Buttons from "../shared/Buttons";
+import Buttons from "../../../shared/Buttons";
 
-const DownloadButton = () => {
+const DownloadPdf = () => {
   const handleDownload = () => {
     // URL del tuo file PDF
     const pdfUrl = "../../assets/CV - Marco Falasca.pdf";
@@ -16,4 +16,4 @@ const DownloadButton = () => {
   return <Buttons onClick={handleDownload}>Resume 📩</Buttons>;
 };
 
-export default DownloadButton;
+export default DownloadPdf;
