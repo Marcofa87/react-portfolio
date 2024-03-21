@@ -24,13 +24,13 @@ export default function ProjectsCard() {
 
   return (
     <>
-      <div className="relative h-screen w-screen overflow-hidden">
+      <div className="relative min-h-screen w-screen overflow-hidden">
         <div
           className="absolute inset-0 h-full w-full bg-[url(../../assets/code-projects-background.jpg)] bg-cover bg-center"
           style={theme === "on" ? { opacity: 0.2 } : { opacity: 0.6 }}
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full max-w-md bg-slate-50 rounded-lg shadow-md p-6">
+          <div className="w-full max-w-md bg-slate-50 rounded-lg shadow-md p-6 overflow-y-auto">
             <h2 className="text-center text-2xl text-gray-900 font-bold mb-4">
               Project {currentProject.id} / {projectData.length}
             </h2>
@@ -38,7 +38,7 @@ export default function ProjectsCard() {
               src={!currentProject.image ? imgNotFound : currentProject.image}
               loading="lazy"
               alt="screen of projects"
-              className="w-full rounded-lg mb-4 border-2 border-amber-700"
+              className="w-11/12 h-60 m-auto rounded-lg mb-4 border-2 border-amber-700"
             />
             <p className="text-slate-900 font-bold text-2xl mb-2 text-center">
               {currentProject.title}
