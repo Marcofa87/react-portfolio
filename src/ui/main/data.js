@@ -16,6 +16,20 @@ export const projectData = [
   },
   {
     id: 2,
+    image: "",
+    title: "Dashboard Inventory",
+    description: "App for implementing products in a table",
+    sourceCodeLink: {
+      link: "https://github.com/Marcofa87/inventory-dashboard",
+      source: "Source code",
+    },
+    demoLink: {
+      link: "https://inventory-dashboard-routing.netlify.app/",
+      demo: "Demo",
+    },
+  },
+  {
+    id: 3,
     image: "../../../assets/app_pictures/users_list.webp",
     title: "Users List ",
     description: "List of users managed by useState.",
@@ -29,7 +43,7 @@ export const projectData = [
     },
   },
   {
-    id: 3,
+    id: 4,
     image: "../../../assets/app_pictures/my_tip_calulator.webp",
     title: "Tip Calculator",
     description: "Layout that displays how much the users have to give for tip",
@@ -43,7 +57,7 @@ export const projectData = [
     },
   },
   {
-    id: 4,
+    id: 5,
     image: "../../../assets/app_pictures/responsive_layer.webp",
     title: "Responsive Css",
     description:
@@ -58,7 +72,7 @@ export const projectData = [
     },
   },
   {
-    id: 5,
+    id: 6,
     image: "../../../assets/app_pictures/calculator_app.webp",
     title: "Calculator",
     description: "Calculator made with React",
@@ -72,7 +86,7 @@ export const projectData = [
     },
   },
   {
-    id: 6,
+    id: 7,
     image: "../../../assets/app_pictures/master_crud_detail.webp",
     title: "Master Crud Detail",
     description:
@@ -87,7 +101,7 @@ export const projectData = [
     },
   },
   {
-    id: 7,
+    id: 8,
     image: "../../../assets/app_pictures/text_expander.webp",
     title: "Text expander",
     description: "Text expander made with the same component customized",
@@ -101,7 +115,7 @@ export const projectData = [
     },
   },
   {
-    id: 8,
+    id: 9,
     image: "../../../assets/app_pictures/js_netflix.webp",
     title: "Netlifix Js",
     description: "Netlifix clone made with Html, Css and JS (Before ECMA 6).",
@@ -115,7 +129,7 @@ export const projectData = [
     },
   },
   {
-    id: 9,
+    id: 10,
     image: "",
     title: "Test",
     description: "test",
