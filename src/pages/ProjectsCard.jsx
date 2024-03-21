@@ -36,6 +36,7 @@ export default function ProjectsCard() {
             </h2>
             <img
               src={!currentProject.image ? imgNotFound : currentProject.image}
+              loading="lazy"
               alt="screen of projects"
               className="w-full rounded-lg mb-4 border-2 border-amber-700"
             />
