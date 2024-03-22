@@ -24,7 +24,7 @@ export default function Home() {
             <img
               alt="picture of me"
               src="/public/assets/cambodia.webp"
-              className="shape opacity-95  "
+              className="shape "
             />
           </div>
         </div>
