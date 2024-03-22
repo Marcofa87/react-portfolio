@@ -1,6 +1,6 @@
 import DownloadPdf from "../ui/main/downloadpdf/DownloadPdf";
 import "../ui/main/mainimg.css";
-import thai from "../../public/assets/app_pictures/cambodia.webp";
+import thai from "../../public/assets/app_pictures/thai.webp";
 
 export default function Home() {
   return (
