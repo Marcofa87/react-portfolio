@@ -27,7 +27,6 @@ export default function Home() {
               className="shape "
               loading="lazy"
             />
-            <p>Helllo</p>
           </div>
         </div>
       </div>
