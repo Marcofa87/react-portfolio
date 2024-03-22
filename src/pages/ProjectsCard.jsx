@@ -27,7 +27,7 @@ export default function ProjectsCard() {
       <div className="relative min-h-screen w-screen overflow-hidden">
         <div
           className="absolute inset-0 h-full w-full bg-[url(../../assets/code-projects-background.jpg)] bg-cover bg-center"
-          style={theme === "on" ? { opacity: 0.2 } : { opacity: 0.6 }}
+          style={theme === "on" ? { opacity: 0.4 } : { opacity: 0.9 }}
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full max-w-md bg-slate-50 rounded-lg shadow-md p-6 overflow-y-auto">
