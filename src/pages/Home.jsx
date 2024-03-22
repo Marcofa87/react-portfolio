@@ -23,7 +23,7 @@ export default function Home() {
           <div className="p-6 flex justify-center">
             <img
               alt="picture of me"
-              src="/public/assets/thai.webp"
+              src="../../public/assets/cambodia.webp"
               className="shape "
               loading="lazy"
             />
