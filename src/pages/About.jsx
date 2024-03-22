@@ -7,7 +7,7 @@ export default function About() {
           <p>
             Welcome to my corner of the web! I&apos;m a passionate junior
             front-end developer with hands-on experience in crafting dynamic web
-            applications using React and Angular. with a good knowledge in the
+            applications using React and Angular, with a good knowledge in the
             field of application development and a strong motivation to grow
             professionally in the role. They can rely on good organizational
             skills and time management. They can easily adapt to new work
