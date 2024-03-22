@@ -2,11 +2,11 @@ import thai from "../../public/assets/app_pictures/thai.webp";
 import { useTheme } from "../context/ThemeContext";
 export default function About() {
   const { theme } = useTheme();
-  const opacity = theme === "on" ? { opacity: 0.6 } : { opacity: 0.8 };
+  const opacity = theme === "on" ? { opacity: 0.6 } : { opacity: 1 };
   return (
     <>
-      <div className="grid lg:grid-cols-3 lg:gap-4">
-        <div className="bg-slate-900 w-10/12 m-auto">
+      <div className="grid lg:grid-cols-2 lg:gap-4 ">
+        <div className=" w-10/12 m-auto">
           <h1 className="font-bold p-4 text-center">Hello!</h1>
           <p className="p-4">
             Welcome to my corner of the web! I&apos;m a passionate junior
@@ -37,9 +37,9 @@ export default function About() {
             challenges and opportunities to contribute to exciting projects.
           </p>
         </div>
-        <div className="w-12/12 h-4/5 m-auto p-4">
+        <div className="w-12/12 h-4/5 m-auto p-8">
           <img
-            className="p-4 rounded-3xl h-5/5"
+            className="p-4 rounded-3xl "
             style={opacity}
             src={thai}
             alt="picture of me"
