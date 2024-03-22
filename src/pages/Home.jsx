@@ -2,6 +2,7 @@ import DownloadPdf from "../ui/main/downloadpdf/DownloadPdf";
 import "../ui/main/mainimg.css";
 
 export default function Home() {
+  const img = "../../public/assets/cambodia.webp";
   return (
     <>
       <div className="p-4 lg:w-4/5 lg:m-auto">
@@ -23,7 +24,7 @@ export default function Home() {
           <div className="p-6 flex justify-center">
             <img
               alt="picture of me"
-              src="../../public/assets/cambodia.webp"
+              src={img}
               className="shape "
               loading="lazy"
             />
