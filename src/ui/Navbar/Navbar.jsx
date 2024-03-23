@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-col md:flex-row items-center justify-between md:border-b-2 p-2">
+      <nav className="flex flex-col md:flex-row items-center justify-between border-b-2 p-2">
         <div className="flex items-center justify-between w-11/12 md:w-2/4">
           <NavLink to="/" className="justify-start w-2/4  md:block md:w-2/4">
             <NavbarImage />
@@ -25,10 +25,11 @@ export default function Navbar() {
 
         <ul className="md:flex font-bold ">
           {links.map((link, id) => (
-            <li key={id} className="p-4">
-              <NavLink to={link.path} className="hover:underline">
-                {link.text}
-              </NavLink>
+            <li
+              key={id}
+              className="p-3 border-2 rounded-full m-2 hover:bg-slate-50 hover:text-slate-900 transition duration-500 "
+            >
+              <NavLink to={link.path}>{link.text}</NavLink>
             </li>
           ))}
         </ul>

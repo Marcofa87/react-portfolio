@@ -1,26 +1,25 @@
+import { createContext, useContext, useState } from "react";
 import PropTypes from "prop-types";
 
-import { createContext, useContext, useState } from "react";
-
-const ThemeContext = createContext();
+const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState("english");
 
   const toggleLanguage = () => {
-    setLanguage((prevLangauge) =>
-      prevLangauge === "english" ? "italian" : "english"
+    setLanguage((prevLanguage) =>
+      prevLanguage === "english" ? "italian" : "english"
     );
   };
 
   return (
-    <ThemeContext.Provider value={{ language, toggleLanguage }}>
+    <LanguageContext.Provider value={{ language, toggleLanguage }}>
       {children}
-    </ThemeContext.Provider>
+    </LanguageContext.Provider>
   );
 };
 
-export const useLanguage = () => useContext(ThemeContext);
+export const useLanguage = () => useContext(LanguageContext);
 
 LanguageProvider.propTypes = {
   children: PropTypes.node.isRequired,
