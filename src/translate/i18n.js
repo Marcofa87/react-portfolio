@@ -1,10 +1,12 @@
 // i18n.js
+
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 // Traduzioni
 const resources = {
-  english: {
+  debug: true,
+  en: {
     translation: {
       greeting: "Hello! I'm",
       name: "Marco Falasca",
@@ -13,7 +15,7 @@ const resources = {
         "I'm studying Front-End Web development since 2 Years, feel free to contact me if you're interested!",
     },
   },
-  italian: {
+  it: {
     translation: {
       greeting: "Ciao! Sono",
       name: "Marco Falasca",
@@ -26,7 +28,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "english", // Lingua predefinita
+  lng: "en", // Lingua predefinita
   fallbackLng: "english", // Lingua di fallback
   interpolation: {
     escapeValue: false, // react già escapea tutto
