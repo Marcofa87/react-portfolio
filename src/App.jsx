@@ -19,6 +19,7 @@ function App() {
       <div
         className={` font-bold min-h-screen w-full font-mono flex flex-col ${backgroundThemeColor} ${textThemeColor}`}
       >
+        <h1>Ciao</h1>
         <BrowserRouter>
           <Suspense fallback={<Loader />}>
             <header>
