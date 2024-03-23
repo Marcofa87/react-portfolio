@@ -4,6 +4,8 @@ import Buttons from "../../../shared/Buttons";
 export default function DarkMode() {
   const { theme, toggleTheme } = useTheme();
   return (
-    <Buttons onClick={toggleTheme}>{theme === "on" ? "🔅" : "🌝"}</Buttons>
+    <Buttons className="text-3xl p-4" onClick={toggleTheme}>
+      {theme === "on" ? "🔅" : "🌝"}
+    </Buttons>
   );
 }

@@ -4,7 +4,7 @@ import Buttons from "../../../shared/Buttons";
 export default function Language() {
   const { language, toggleLanguage } = useLanguage();
   return (
-    <Buttons onClick={toggleLanguage}>
+    <Buttons className="text-3xl p-2" onClick={toggleLanguage}>
       {language === "english" ? "🇬🇧" : "🇮🇹"}
     </Buttons>
   );

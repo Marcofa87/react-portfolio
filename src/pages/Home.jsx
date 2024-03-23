@@ -1,6 +1,6 @@
 import DownloadPdf from "../ui/main/downloadpdf/DownloadPdf";
 import "../ui/main/mainimg.css";
-import thai from "../../public/assets/app_pictures/thai.webp";
+import phiphi from "../../public/assets/app_pictures/phiphi.webp";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="p-6 flex justify-center">
             <img
               alt="picture of me"
-              src={thai}
+              src={phiphi}
               className="shape "
               loading="lazy"
             />

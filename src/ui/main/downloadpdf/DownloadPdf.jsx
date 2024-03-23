@@ -13,7 +13,14 @@ const DownloadPdf = () => {
     saveAs(pdfUrl, pdfFileName);
   };
 
-  return <Buttons onClick={handleDownload}>Resume 📩</Buttons>;
+  return (
+    <Buttons
+      onClick={handleDownload}
+      className="border-2 border-solid border-slate-50 p-4 rounded-full text-2xl text-white "
+    >
+      Resume 📩
+    </Buttons>
+  );
 };
 
 export default DownloadPdf;
