@@ -124,7 +124,7 @@ export const projectData = [
       source: "Source code",
     },
     demoLink: {
-      link: "https://js-netflix.netlify.app/",
+      link: "https://app.netlify.com/sites/my-movie-appjs/configuration/general",
       demo: "Demo",
     },
   },
