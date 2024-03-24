@@ -5,7 +5,7 @@ export default function Language() {
   const { language, toggleLanguage } = useLanguage();
   return (
     <Buttons className="text-3xl p-2" onClick={toggleLanguage}>
-      {language === "english" ? "🇬🇧" : "🇮🇹"}
+      {language === "en" ? "🇬🇧" : "🇮🇹"}
     </Buttons>
   );
 }

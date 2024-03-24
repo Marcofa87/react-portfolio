@@ -1,15 +1,20 @@
 import { createContext, useContext, useState } from "react";
 import PropTypes from "prop-types";
+import i18next from "i18next";
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("english");
+  const [language, setLanguage] = useState("en");
 
   const toggleLanguage = () => {
-    setLanguage((prevLanguage) =>
-      prevLanguage === "english" ? "italian" : "english"
-    );
+    const newLanguage = language === "en" ? "it" : "en";
+
+    i18next.changeLanguage(newLanguage, (err) => {
+      if (err) return console.error("Error changing language:", err);
+
+      setLanguage(newLanguage);
+    });
   };
 
   return (
