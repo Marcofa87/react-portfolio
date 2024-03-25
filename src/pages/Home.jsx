@@ -22,12 +22,7 @@ export default function Home() {
             <DownloadPdf />
           </div>
           <div className="p-6 flex justify-center">
-            <img
-              alt="picture of me"
-              src={phiphi}
-              className="shape "
-              loading="lazy"
-            />
+            <img alt="picture of me" src={phiphi} className="shape " />
           </div>
         </div>
       </div>
