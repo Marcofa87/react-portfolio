@@ -13,7 +13,7 @@ export default function Home() {
             <h1 className=" from-amber-400 via-amber-600 to-amber-400 bg-gradient-to-r bg-clip-text text-transparent">
               {t("greeting")}
               <br />
-              <span className="text-slate-900 font-bold rounded-md bg-slate-50 p-1 ">
+              <span className="text-red-800 underline font-bold rounded-md p-1 ">
                 {t("name")}
               </span>
               <br /> {t("role")}

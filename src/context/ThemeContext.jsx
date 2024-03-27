@@ -12,10 +12,17 @@ export const ThemeProvider = ({ children }) => {
   const backgroundThemeColor =
     theme === "on" ? "bg-slate-900" : "bg-neutral-100";
   const textThemeColor = theme === "on" ? "text-slate-50" : "text-slate-950";
+  const borderButton = theme === "on" ? "border-slate-50" : "border-gray-900";
 
   return (
     <ThemeContext.Provider
-      value={{ theme, toggleTheme, backgroundThemeColor, textThemeColor }}
+      value={{
+        theme,
+        toggleTheme,
+        backgroundThemeColor,
+        textThemeColor,
+        borderButton,
+      }}
     >
       {children}
     </ThemeContext.Provider>

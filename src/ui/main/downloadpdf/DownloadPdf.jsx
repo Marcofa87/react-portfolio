@@ -1,7 +1,10 @@
 import { saveAs } from "file-saver";
 import Buttons from "../../../shared/Buttons";
+import { useTheme } from "../../../context/ThemeContext";
 
 const DownloadPdf = () => {
+  const { textThemeColor, borderButton } = useTheme();
+
   const handleDownload = () => {
     // URL del tuo file PDF
     const pdfUrl = "../../assets/CV - Marco Falasca.pdf";
@@ -16,7 +19,7 @@ const DownloadPdf = () => {
   return (
     <Buttons
       onClick={handleDownload}
-      className="border-2 border-solid border-slate-50 p-4 rounded-full text-2xl text-white "
+      className={` ${textThemeColor} ${borderButton}  border-2 border-solid p-4 rounded-full text-2xl`}
     >
       Resume 📩
     </Buttons>
