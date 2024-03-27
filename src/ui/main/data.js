@@ -16,7 +16,7 @@ export const projectData = [
   },
   {
     id: 2,
-    image: "./../../../public/assets/app_pictures/dashboard.webp",
+    image: "../../../public/assets/app_pictures/dashboard.webp",
     title: "Dashboard Inventory",
     description: "App for implementing products in a table",
     sourceCodeLink: {
