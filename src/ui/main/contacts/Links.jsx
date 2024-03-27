@@ -9,25 +9,33 @@ export default function Links() {
     <ul>
       <li className={listClass}>
         <FontAwesomeIcon icon={faPhoneAlt} className={linkClass} />
-        <a href="" className="ml-4">
-          +393472637900
+        <a href="https://wa.me/+393472637900" target="_blank" className="ml-4">
+          Call me
         </a>
       </li>
       <li className={listClass}>
         <FontAwesomeIcon icon={faGithub} className={linkClass} />
-        <a href="" className="ml-4">
+        <a href="https://github.com/Marcofa87" target="_blank" className="ml-4">
           Marcofa87
         </a>
       </li>
       <li className={listClass}>
         <FontAwesomeIcon icon={faEnvelope} className={linkClass} />
-        <a href="" className="ml-4">
+        <a
+          href="mailto:marco.falasca87@gmail.com"
+          target="_blank"
+          className="ml-4"
+        >
           marco.falasca87@gmail.com
         </a>
       </li>
       <li className={listClass}>
         <FontAwesomeIcon icon={faLinkedin} className={linkClass} />
-        <a href="" className="ml-4">
+        <a
+          href="https://www.linkedin.com/in/marco-falasca-web-developer/"
+          target="_blank"
+          className="ml-4"
+        >
           marco-falasca-web-developer
         </a>
       </li>
