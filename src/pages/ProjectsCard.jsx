@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { projectData } from "../ui/main/data";
 import { useTheme } from "../context/ThemeContext";
-import imgBackground from "../../public/assets/code-projects-background.jpg/";
+import imgBackground from "../../public/assets/app_pictures/code-projects-background.webp";
 
 export default function ProjectsCard() {
   const { theme } = useTheme();
