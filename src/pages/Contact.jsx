@@ -1,16 +1,14 @@
-export default function Contact() {
+import Links from "../ui/main/contacts/Links";
+
+export default function Skills() {
   return (
-    <div className="p-4">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores vel,
-        recusandae, saepe est placeat totam nisi eveniet accusamus at sunt
-        suscipit consequatur beatae rem ad, quisquam repudiandae minus odit a.
-      </p>
+    <div className="p-4 ">
+      <div className="p-4 m-6">
+        <h1 className="p-4">Contact Me</h1>
+        <p className="p-4">Get in touch via social or email</p>
+      </div>
+      <Links />
+      <div></div>
     </div>
   );
 }
-
-/*  <div
-          className="absolute inset-0 h-full w-full border-2 text-center m-0 bg-[url(../../assets/thai.webp)] bg-cover bg-center"
-          style={theme === "on" ? { opacity: 0.2 } : { opacity: 0.5 }}
-        ></div> */

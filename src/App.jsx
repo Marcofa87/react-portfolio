@@ -24,7 +24,7 @@ function App() {
             <header>
               <Navbar />
             </header>
-            <main className="flex justify-center flex-grow ">
+            <main className="flex flex-grow ">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

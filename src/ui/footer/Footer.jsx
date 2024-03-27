@@ -1,20 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-
-const socialIcons = [
-  { icon: faFacebook, link: "https://www.facebook.com/marco.falasca1" },
-  { icon: faInstagram, link: "https://www.instagram.com/marcofa87/" },
-  {
-    icon: faLinkedin,
-    link: "https://www.linkedin.com/in/marco-falasca-web-developer/",
-  },
-  { icon: faGithub, link: "https://github.com/Marcofa87" },
-];
+import { socialIcons } from "./data";
 
 export default function Footer() {
   return (
