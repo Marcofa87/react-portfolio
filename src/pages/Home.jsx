@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import DownloadPdf from "../ui/main/downloadpdf/DownloadPdf";
 import "../ui/main/mainimg.css";
 import phiphi from "../../public/assets/app_pictures/phiphi.webp";
-import Skillset from "../ui/Skills/Skills";
+import Skillset from "../ui/main/Skills/Skills";
 
 export default function Home() {
   const { t } = useTranslation();
