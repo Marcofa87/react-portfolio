@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import DownloadPdf from "../ui/main/downloadpdf/DownloadPdf";
 import "../ui/main/mainimg.css";
 import phiphi from "../../public/assets/app_pictures/phiphi.webp";
+import Skillset from "../ui/Skills/Skills";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -21,10 +22,12 @@ export default function Home() {
             <p className=" p-8 font-bold">{t("about")}</p>
             <DownloadPdf />
           </div>
+
           <div className="p-6 flex justify-center">
             <img alt="picture of me" src={phiphi} className="shape " />
           </div>
         </div>
+        <Skillset />
       </div>
     </>
   );

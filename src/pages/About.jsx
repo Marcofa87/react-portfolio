@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import thai from "../../public/assets/app_pictures/thai.webp";
 import { useTheme } from "../context/ThemeContext";
+
 export default function About() {
   const { t } = useTranslation();
   const { theme } = useTheme();
@@ -15,6 +16,7 @@ export default function About() {
           <p className="p-4">{t("motivation")}</p>
           <p className="p-4">{t("explore")}</p>
         </div>
+
         <div className="w-12/12 h-4/5 m-auto p-8">
           <img
             className="p-4 rounded-3xl "
