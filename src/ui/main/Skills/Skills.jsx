@@ -8,7 +8,7 @@ export default function Skillset() {
           <h2 className="text-center text-3xl">Skills</h2>
         </div>
         <div className="mt-12">
-          <ul className="flex justify-center">
+          <ul className="flex justify-center flex-wrap">
             {iconsList.map((item, id) => (
               <li key={id}>{<item.icon className={item.className} />}</li>
             ))}

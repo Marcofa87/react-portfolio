@@ -25,7 +25,7 @@ export default function Links() {
     {
       icon: <SiGmail className={`text-7xl ${linkClass}`} />,
       href: "mailto:marco.falasca87@gmail.com",
-      text: "Email: marco.falasca87@gmail.com",
+      text: "Send me an E-mail ",
     },
     {
       icon: <FontAwesomeIcon icon={faLinkedin} className={linkClass} />,
