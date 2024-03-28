@@ -35,15 +35,19 @@ export default function Links() {
   ];
 
   return (
-    <ul>
-      {contactLinks.map((link, id) => (
-        <li key={id} className={listClass}>
-          {link.icon}
-          <a href={link.href} target="_blank" className="ml-4">
-            {link.text}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <>
+      <div>
+        <ul>
+          {contactLinks.map((link, id) => (
+            <li key={id} className={listClass}>
+              {link.icon}
+              <a href={link.href} target="_blank" className="ml-4">
+                {link.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
