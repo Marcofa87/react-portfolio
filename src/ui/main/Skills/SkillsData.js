@@ -8,7 +8,7 @@ import {
 } from "react-icons/io";
 import { FaBootstrap } from "react-icons/fa6";
 
-const icons = "p-2 text-7xl ";
+const icons = "p-2 text-6xl ";
 
 export const iconsList = [
   { icon: IoLogoHtml5, className: icons },

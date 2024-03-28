@@ -3,14 +3,14 @@ import { iconsList } from "./SkillsData";
 export default function Skillset() {
   return (
     <>
-      <div className="p-4 mt-6">
-        <h2 className="text-center">Skills</h2>
-        <div>
+      <div className="p-4">
+        <div className="mb-4">
+          <h2 className="text-center text-3xl">Skills</h2>
+        </div>
+        <div className="mt-12">
           <ul className="flex justify-center">
-            {iconsList.map((item, index) => (
-              <li key={index} className="">
-                {<item.icon className={item.className} />}
-              </li>
+            {iconsList.map((item, id) => (
+              <li key={id}>{<item.icon className={item.className} />}</li>
             ))}
           </ul>
         </div>
