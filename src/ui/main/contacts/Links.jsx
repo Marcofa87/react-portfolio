@@ -20,7 +20,7 @@ export default function Links() {
       <li className={listClass}>
         <FontAwesomeIcon icon={faGithub} className={linkClass} />
         <a href="https://github.com/Marcofa87" target="_blank" className="ml-4">
-          Marcofa87
+          Github
         </a>
       </li>
       <li className={listClass}>
@@ -30,7 +30,7 @@ export default function Links() {
           target="_blank"
           className="ml-4"
         >
-          marco.falasca87@gmail.com
+          Email: marco.falasca87@gmail.com
         </a>
       </li>
       <li className={listClass}>
@@ -40,7 +40,7 @@ export default function Links() {
           target="_blank"
           className="ml-4"
         >
-          marco-falasca-web-developer
+          Linkedin
         </a>
       </li>
     </ul>
