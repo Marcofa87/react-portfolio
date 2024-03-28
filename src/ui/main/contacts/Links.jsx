@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SiGmail } from "react-icons/si";
 
 export default function Links() {
   const linkClass = "text-4xl border rounded-full p-4 mb-2 ";
@@ -24,7 +25,7 @@ export default function Links() {
         </a>
       </li>
       <li className={listClass}>
-        <FontAwesomeIcon icon={faEnvelope} className={linkClass} />
+        <SiGmail className={linkClass} />
         <a
           href="mailto:marco.falasca87@gmail.com"
           target="_blank"
