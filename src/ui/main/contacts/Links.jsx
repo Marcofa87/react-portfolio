@@ -1,5 +1,9 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Links() {
@@ -8,9 +12,9 @@ export default function Links() {
   return (
     <ul>
       <li className={listClass}>
-        <FontAwesomeIcon icon={faPhoneAlt} className={linkClass} />
+        <FontAwesomeIcon icon={faWhatsapp} className={linkClass} />
         <a href="https://wa.me/+393472637900" target="_blank" className="ml-4">
-          Call me
+          Send me a message
         </a>
       </li>
       <li className={listClass}>
