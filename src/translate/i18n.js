@@ -21,6 +21,21 @@ const resources = {
         "Beyond coding, I'm a continual learner, always eager to explore new technologies and methodologies to stay at the forefront of the ever-evolving tech landscape. Collaborative by nature, I thrive in team environments where ideas flow freely and innovation is encouraged.",
       explore:
         "Explore my portfolio to see some of the projects I've brought to life, and feel free to reach out—I'm always up for new challenges and opportunities to contribute to exciting projects.",
+      aboutMe: "About Me",
+      projects: "Projects",
+      contact: "Contacts",
+      project1:
+        "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price.",
+      project2: "BApp for implementing products in a table.",
+      project3: "List of users managed by useState.",
+      project4: "Layout that displays how much the users have to give for tip",
+      project5:
+        "Responsive Webpage that displays for small, medium and large devices. ",
+      project6: "Calculator made with React.",
+      project7:
+        "Table of course detail made with Angular with CRUD principles.",
+      project8: "Text expander made with the same component customized.",
+      project9: "Netlifix clone made with Html, Css and JS (Before ECMA 6).",
     },
   },
   it: {
@@ -38,6 +53,24 @@ const resources = {
         "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Collaborativo per natura, prospero in ambienti di squadra dove le idee fluiscono liberamente e l'innovazione è incoraggiata.",
       explore:
         "Esplora il mio portfolio per vedere alcuni dei progetti che ho portato alla vita e sentiti libero di contattarmi: sono sempre pronto per nuove sfide e opportunità di contribuire a progetti interessanti.",
+      aboutMe: "Chi sono",
+      projects: "Progetti",
+      contact: "Contatti",
+      project1:
+        "Elenco di libri visualizzato su una tabella. Puoi filtrare l'elenco per: Titolo, Autore, Data di pubblicazione, Prezzo.",
+      project2: "App per implementare prodotti in una tabella.",
+      project3: "Elenco degli utenti gestito da useState.",
+      project4:
+        "Layout che mostra quanto gli utenti devono dare per la mancia.",
+      project5:
+        "Pagina web responsive che si adatta a dispositivi di piccole, medie e grandi dimensioni.",
+      project6: "Calcolatrice realizzata con React.",
+      project7:
+        "Tabella dei dettagli del corso realizzata con Angular con principi CRUD.",
+      project8:
+        "Espansore di testo realizzato con lo stesso componente personalizzato.",
+      project9:
+        "Clone di Netflix realizzato con Html, Css e JS (Prima di ECMA 6).",
     },
   },
 };

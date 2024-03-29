@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { projectData } from "../ui/main/data";
+import { useProjectData } from "../ui/main/data";
 import { useTheme } from "../context/ThemeContext";
 import imgBackground from "../../public/assets/app_pictures/code-projects-background.webp";
 
 export default function ProjectsCard() {
+  const projectData = useProjectData();
   const { theme } = useTheme();
 
   const opacity = theme === "on" ? { opacity: 0.3 } : { opacity: 0.6 };

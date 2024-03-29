@@ -2,12 +2,14 @@ import { NavLink } from "react-router-dom";
 import DarkMode from "./Navbarstates/DarkMode";
 import Language from "./Navbarstates/Language";
 import NavbarImage from "./NavbarImage/NavbarImage";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
+  const { t } = useTranslation();
   const links = [
-    { path: "/about", text: "About Me" },
-    { path: "/projects", text: "Projects" },
-    { path: "/contact", text: "Contact" },
+    { path: "/about", text: t("aboutMe") },
+    { path: "/projects", text: t("projects") },
+    { path: "/contact", text: t("contact") },
   ];
 
   return (
