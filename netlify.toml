@@ -15,6 +15,6 @@ package = "@netlify/plugin-sitemap"
   filePath = "/sitemap.xml"
 
   [[redirects]]
-  from = "/"
-  to = "/index.html"
+  from = "/*"
+  to = "/"
   status = 200
