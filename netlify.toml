@@ -1,20 +1,11 @@
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  buildDir = "public"
-
-  [[plugins]]
-package = "@netlify/plugin-sitemap"
-
   [plugins.inputs]
   buildDir = "public"
   filePath = "/sitemap.xml"
 
-  [[redirects]]
+[[redirects]]
   from = "/*"
-  to = "/"
+  to = "/index.html"
   status = 200
