@@ -25,12 +25,12 @@ const resourcesIt = {
     "Elenco di libri visualizzato su una tabella. Puoi filtrare l'elenco per: Titolo, Autore, Data di pubblicazione, Prezzo.",
   productApp: "App per l'implementazione di prodotti in una tabella.",
   userList: "Elenco degli utenti gestito da useState.",
-  tipLayout:
+  tipCalculator:
     "Layout che visualizza quanto gli utenti devono dare per la mancia.",
-  responsivePage:
+  responsiveWebpage:
     "Pagina Web responsive che si adatta a dispositivi di piccole, medie e grandi dimensioni.",
   reactCalculator: "Calcolatrice realizzata con React.",
-  courseDetailsTable:
+  courseTable:
     "Tabella dei dettagli del corso realizzata con Angular con principi CRUD.",
   textExpander:
     "Espansore di testo realizzato con lo stesso componente personalizzato.",
