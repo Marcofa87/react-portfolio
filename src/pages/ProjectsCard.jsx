@@ -36,7 +36,7 @@ export default function ProjectsCard() {
           style={opacity}
         />
         <div className="w-full m-auto items-center max-w-md bg-slate-50 rounded-lg shadow-md p-6 overflow-y-auto z-20">
-          <h2 className="text-center text-2xl text-gray-900 font-bold mb-4">
+          <h2 className="text-center text-2xl text-gray-900 font-bold mb-8">
             Project {currentProject.id} / {projectData.length}
           </h2>
           <img
@@ -44,16 +44,16 @@ export default function ProjectsCard() {
             alt="screen of projects"
             className="w-11/12 h-60 m-auto rounded-lg mb-4 border-2 border-amber-700"
           />
-          <p className="text-slate-900 font-bold text-2xl mb-2 text-center">
+          <p className="text-slate-900 font-bold text-2xl m-8 text-center">
             {currentProject.title}
           </p>
-          <p className="text-gray-900 text-sm mb-4 font-bold">
+          <p className="text-gray-900 text-sm m-8 font-bold">
             {currentProject.description}
           </p>
-          <div className="flex justify-between mb-4">
+          <div className="flex justify-between m-8">
             <a
               href={currentProject.sourceCodeLink.link}
-              className="text-blue-700 hover:underline font-bold"
+              className="text-blue-700 hover:underline font-bold text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,7 +61,7 @@ export default function ProjectsCard() {
             </a>
             <a
               href={currentProject.demoLink.link}
-              className="text-blue-700 hover:underline font-bold"
+              className="text-blue-700 hover:underline font-bold text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,13 +70,13 @@ export default function ProjectsCard() {
           </div>
           <div className="flex justify-between">
             <button
-              className="px-4 py-2 rounded-md bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+              className="px-4 py-2 rounded-lg bg-slate-800 text-slate-100 hover:bg-blue-800 focus:outline-none"
               onClick={handlePrevIndex}
             >
               Back
             </button>
             <button
-              className="px-4 py-2 rounded-lg bg-slate-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+              className="px-4 py-2 rounded-lg bg-slate-800 text-slate-100 hover:bg-blue-800 focus:outline-none"
               onClick={handleNextIndex}
             >
               Next
