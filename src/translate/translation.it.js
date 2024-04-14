@@ -3,37 +3,33 @@ const resourcesIt = {
   name: "Marco Falasca",
   role: "Sviluppatore Front-End",
   about:
-    "Studio lo sviluppo Web Front-End da 2 anni, sentiti libero di contattarmi se sei interessato!",
+    "Studio lo sviluppo web Front-End da 2 anni. Sentiti libero di contattarmi se sei interessato!",
   welcome:
-    "Benvenuti nel mio angolo del web! Sono un appassionato sviluppatore front-end junior con esperienza pratica nella creazione di applicazioni web dinamiche utilizzando React e Angular, con una buona conoscenza nel campo dello sviluppo delle applicazioni e una forte motivazione a crescere professionalmente nel ruolo. Posso contare su buone capacità organizzative e gestione del tempo. Posso adattarmi facilmente a nuovi ambienti di lavoro grazie al loro spirito di squadra e alle eccellenti capacità di ascolto e comunicazione.",
+    "Benvenuti nel mio angolo del web! Mi chiamo Marco Falasca e sono uno sviluppatore Front-End. Ho iniziato a muovere i primi passi poco più di 2 anni fa in questo mondo per puro caso, iniziando ad approfondire concetti di Digital Marketing. Trovandomi poi a studiare SEO, sono entrato in contatto per la prima volta con i tag HTML, per poi non lasciarli mai più. ",
   skills:
-    "Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, spingendo sempre i limiti di ciò che è possibile nello sviluppo web. Che si tratti di costruire layout responsive o integrare API.",
+    "Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno grazie a Framework come Angular o React.",
   motivation:
-    "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Collaborativo per natura, prospero in ambienti di squadra dove le idee fluiscono liberamente e l'innovazione è incoraggiata.",
+    "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Nel tempo libero, come si potrà immaginare dalle foto, mi piace molto viaggiare, stare all'aria aperta, leggere e non disdegno anche l'apprendimento di cose nuove, come ad esempio la finanza personale.",
   explore:
-    "Esplora il mio portfolio per vedere alcuni dei progetti che ho portato alla vita e sentiti libero di contattarmi: sono sempre pronto per nuove sfide e opportunità di contribuire a progetti interessanti.",
+    "Mi piace molto mettermi in gioco ed è per questo che sono pronto per una nuova avventura. Esplora i miei progetti per vedere alcuni dei progetti che ho portato alla vita e sentiti libero di contattarmi.",
   aboutMe: "Chi sono",
   projects: "Progetti",
   contact: "Contatti",
   contactMe: "Contattami",
-  inTouch: "Restiamo in contatto tramite i social o via email",
+  inTouch: "Rimaniamo in contatto tramite social media o email",
   message: "Inviami un messaggio",
   github: "Github",
   email: "Inviami una Email",
   linkedin: "Linkedin",
-  project1:
-    "Elenco di libri visualizzato su una tabella. Puoi filtrare l'elenco per: Titolo, Autore, Data di pubblicazione, Prezzo.",
-  project2: "App per implementare prodotti in una tabella.",
-  project3: "Elenco degli utenti gestito da useState.",
-  project4: "Layout che mostra quanto gli utenti devono dare per la mancia.",
-  project5:
-    "Pagina web responsive che si adatta a dispositivi di piccole, medie e grandi dimensioni.",
-  project6: "Calcolatrice realizzata con React.",
-  project7:
-    "Tabella dei dettagli del corso realizzata con Angular con principi CRUD.",
-  project8:
-    "Espansore di testo realizzato con lo stesso componente personalizzato.",
-  project9: "Clone di Netflix realizzato con Html, Css e JS (Prima di ECMA 6).",
+  bookList: "Elenco dei libri",
+  productApp: "App per prodotti",
+  userList: "Elenco degli utenti",
+  tipCalculator: "Calcolatore della mancia",
+  responsiveWebpage: "Pagina Web responsive",
+  reactCalculator: "Calcolatrice in React",
+  courseTable: "Tabella dei dettagli del corso",
+  textExpander: "Espansore di testo",
+  netflixClone: "Clone di Netflix",
 };
 
 export default resourcesIt;

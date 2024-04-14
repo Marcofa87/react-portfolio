@@ -8,7 +8,7 @@ export const useProjectData = () => {
       id: 1,
       image: "../../../assets//app_pictures/filter-book-app.webp",
       title: "Filter Book React",
-      description: t("project1"),
+      description: t("bookList"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/filter-book-app-react",
         source: "Source code",
@@ -22,7 +22,7 @@ export const useProjectData = () => {
       id: 2,
       image: "../../../assets/app_pictures/dashboard.webp",
       title: "Dashboard Inventory",
-      description: t("project2"),
+      description: t("productApp"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/inventory-dashboard",
         source: "Source code",
@@ -36,7 +36,7 @@ export const useProjectData = () => {
       id: 3,
       image: "../../../assets/app_pictures/users_list.webp",
       title: "Users List ",
-      description: t("project3"),
+      description: t("userList"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/Users-List",
         source: "Source code",
@@ -50,7 +50,7 @@ export const useProjectData = () => {
       id: 4,
       image: "../../../assets/app_pictures/my_tip_calulator.webp",
       title: "Tip Calculator",
-      description: t("project4"),
+      description: t("tipCalculator"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/tip-calculator",
         source: "Source code",
@@ -64,7 +64,7 @@ export const useProjectData = () => {
       id: 5,
       image: "../../../assets/app_pictures/responsive_layer.webp",
       title: "Responsive Css",
-      description: t("project5"),
+      description: t("responsiveWebpage"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/ResponsiveWeb",
         source: "Source code",
@@ -78,7 +78,7 @@ export const useProjectData = () => {
       id: 6,
       image: "../../../assets/app_pictures/calculator_app.webp",
       title: "Calculator",
-      description: t("project6"),
+      description: t("reactCalculator"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/react-calculator-app",
         source: "Source code",
@@ -92,7 +92,7 @@ export const useProjectData = () => {
       id: 7,
       image: "../../../assets/app_pictures/master_crud_detail.webp",
       title: "Master Crud Detail",
-      description: t("project7"),
+      description: t("courseTable"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/Master-Detail",
         source: "Source code",
@@ -106,7 +106,7 @@ export const useProjectData = () => {
       id: 8,
       image: "../../../assets/app_pictures/text_expander.webp",
       title: "Text expander",
-      description: t("project8"),
+      description: t("textExpander"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/Text-expander",
         source: "Source code",
@@ -120,7 +120,7 @@ export const useProjectData = () => {
       id: 9,
       image: "../../../assets/app_pictures/js_netflix.webp",
       title: "Netlifix Js",
-      description: t("project9"),
+      description: t("netflixClone"),
       sourceCodeLink: {
         link: "https://github.com/Marcofa87/Marcofa87-Netflix-Clone",
         source: "Source code",
