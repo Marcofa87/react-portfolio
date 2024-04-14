@@ -29,7 +29,7 @@ export default function Navbar() {
           {links.map((link, id) => (
             <li
               key={id}
-              className="p-3 border-2 rounded-lg m-2 hover:bg-slate-50 hover:text-slate-900 transition duration-500 "
+              className="p-3 border-2 rounded-lg m-2 hover:bg-slate-50 hover:text-slate-900 transition duration-300 "
             >
               <NavLink to={link.path}>{link.text}</NavLink>
             </li>
