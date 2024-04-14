@@ -21,15 +21,18 @@ const resourcesEn = {
   github: "Github",
   email: "Send me an Email",
   linkedin: "Linkedin",
-  bookList: "Book List",
-  productApp: "Product App",
-  userList: "User List",
-  tipCalculator: "Tip Calculator",
-  responsiveWebpage: "Responsive Webpage",
-  reactCalculator: "React Calculator",
-  courseTable: "Course Table",
-  textExpander: "Text Expander",
-  netflixClone: "Netflix Clone",
+  bookList:
+    "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price.",
+  productApp: "App for implementing products in a table.",
+  userList: "List of users managed by useState.",
+  tipLayout: "Layout that displays how much the users have to give for tip.",
+  responsivePage:
+    "Responsive Webpage that displays for small, medium and large devices.",
+  reactCalculator: "Calculator made with React.",
+  courseDetailsTable:
+    "Table of course detail made with Angular with CRUD principles.",
+  textExpander: "Text expander made with the same component customized.",
+  netflixClone: "Netflix clone made with Html, Css and JS (Before ECMA 6).",
 };
 
 export default resourcesEn;

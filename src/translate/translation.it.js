@@ -5,31 +5,37 @@ const resourcesIt = {
   about:
     "Studio lo sviluppo web Front-End da 2 anni. Sentiti libero di contattarmi se sei interessato!",
   welcome:
-    "Benvenuti nel mio angolo del web! Mi chiamo Marco Falasca e sono uno sviluppatore Front-End. Ho iniziato a muovere i primi passi poco più di 2 anni fa in questo mondo per puro caso, iniziando ad approfondire concetti di Digital Marketing. Trovandomi poi a studiare SEO, sono entrato in contatto per la prima volta con i tag HTML, per poi non lasciarli mai più. ",
+    "Benvenuti nel mio angolo del web! Sono Marco Falasca, uno sviluppatore Front-End. Ho iniziato a muovere i primi passi in questo mondo poco più di 2 anni fa quasi per caso, approfondendo i concetti di Digital Marketing. Mentre studiavo SEO, sono entrato in contatto con i tag HTML per la prima volta e non ho più guardato indietro.",
   skills:
-    "Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno grazie a Framework come Angular o React.",
+    "Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno utilizzando framework come Angular o React.",
   motivation:
-    "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Nel tempo libero, come si potrà immaginare dalle foto, mi piace molto viaggiare, stare all'aria aperta, leggere e non disdegno anche l'apprendimento di cose nuove, come ad esempio la finanza personale.",
+    "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Nel tempo libero, come potresti immaginare dalle foto, amo viaggiare, trascorrere del tempo all'aria aperta, leggere e non mi dispiace imparare cose nuove, come ad esempio la finanza personale.",
   explore:
-    "Mi piace molto mettermi in gioco ed è per questo che sono pronto per una nuova avventura. Esplora i miei progetti per vedere alcuni dei progetti che ho portato alla vita e sentiti libero di contattarmi.",
+    "Mi diverto a sfidarmi, ed è per questo che sono pronto per una nuova avventura. Esplora i miei progetti per vedere alcuni dei lavori che ho portato alla vita e sentiti libero di contattarmi.",
   aboutMe: "Chi sono",
   projects: "Progetti",
   contact: "Contatti",
   contactMe: "Contattami",
-  inTouch: "Rimaniamo in contatto tramite social media o email",
+  inTouch: "Rimani in contatto tramite social media o email",
   message: "Inviami un messaggio",
   github: "Github",
   email: "Inviami una Email",
   linkedin: "Linkedin",
-  bookList: "Elenco dei libri",
-  productApp: "App per prodotti",
-  userList: "Elenco degli utenti",
-  tipCalculator: "Calcolatore della mancia",
-  responsiveWebpage: "Pagina Web responsive",
-  reactCalculator: "Calcolatrice in React",
-  courseTable: "Tabella dei dettagli del corso",
-  textExpander: "Espansore di testo",
-  netflixClone: "Clone di Netflix",
+  bookList:
+    "Elenco di libri visualizzato su una tabella. Puoi filtrare l'elenco per: Titolo, Autore, Data di pubblicazione, Prezzo.",
+  productApp: "App per l'implementazione di prodotti in una tabella.",
+  userList: "Elenco degli utenti gestito da useState.",
+  tipLayout:
+    "Layout che visualizza quanto gli utenti devono dare per la mancia.",
+  responsivePage:
+    "Pagina Web responsive che si adatta a dispositivi di piccole, medie e grandi dimensioni.",
+  reactCalculator: "Calcolatrice realizzata con React.",
+  courseDetailsTable:
+    "Tabella dei dettagli del corso realizzata con Angular con principi CRUD.",
+  textExpander:
+    "Espansore di testo realizzato con lo stesso componente personalizzato.",
+  netflixClone:
+    "Clone di Netflix realizzato con Html, Css e JS (Prima di ECMA 6).",
 };
 
 export default resourcesIt;
