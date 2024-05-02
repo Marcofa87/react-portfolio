@@ -1,4 +1,4 @@
-import { SiReact, SiTailwindcss } from "react-icons/si";
+import { SiReact, SiTailwindcss, SiGit } from "react-icons/si";
 import {
   IoLogoJavascript,
   IoLogoHtml5,
@@ -19,4 +19,5 @@ export const iconsList = [
   { icon: IoLogoSass, className: icons },
   { icon: FaBootstrap, className: icons },
   { icon: SiTailwindcss, className: icons },
+  { icon: SiGit, className: icons },
 ];
