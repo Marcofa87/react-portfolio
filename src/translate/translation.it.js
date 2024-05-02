@@ -5,9 +5,9 @@ const resourcesIt = {
   about:
     "Studio lo sviluppo web Front-End da 2 anni. Sentiti libero di contattarmi se sei interessato!",
   welcome:
-    "Benvenuti nel mio angolo del web! Sono Marco Falasca, uno sviluppatore Front-End. Ho iniziato a muovere i primi passi in questo mondo poco più di 2 anni fa quasi per caso, approfondendo i concetti di Digital Marketing. Mentre studiavo SEO, sono entrato in contatto con i tag HTML per la prima volta e non ho più guardato indietro.",
+    "Benvenuti nel mio angolo del web! Sono Marco Falasca, uno sviluppatore Front-End. Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno utilizzando framework come Angular o React.",
   skills:
-    "Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno utilizzando framework come Angular o React.",
+    "Ho iniziato a muovere i primi passi in questo mondo poco più di 2 anni fa quasi per caso, approfondendo i concetti di Digital Marketing. Mentre studiavo SEO, sono entrato in contatto con i tag HTML per la prima volta e non ho più guardato indietro. ",
   motivation:
     "Oltre alla codifica, sono sempre desideroso di esplorare nuove tecnologie e metodologie per rimanere al passo con il panorama tecnologico in continua evoluzione. Nel tempo libero, come potresti immaginare dalle foto, amo viaggiare, trascorrere del tempo all'aria aperta, leggere e non mi dispiace imparare cose nuove, come ad esempio la finanza personale.",
   explore:

@@ -5,9 +5,9 @@ const resourcesEn = {
   about:
     "I've been studying Front-End Web development for 2 years. Feel free to contact me if you're interested!",
   welcome:
-    "Welcome to my corner of the web! I'm Marco Falasca, a Front-End Developer. I took my first steps in this world just over 2 years ago almost by chance, delving into Digital Marketing concepts. As I delved into SEO, I came into contact with HTML tags for the first time, and I never looked back. ",
+    "Welcome to my corner of the web! I'm Marco Falasca, a Front-End developer. Along my journey as a developer, I've honed my skills in HTML, CSS, and JavaScript, eventually building my first applications and then embracing more modern development using frameworks like Angular or React. ",
   skills:
-    "In my journey as a developer, I honed my skills in HTML, CSS, and JavaScript, until I built my first applications and then moved towards more modern development using frameworks like Angular or React.",
+    "I began my journey in this field just over 2 years ago almost by chance, delving into the concepts of Digital Marketing. While studying SEO, I encountered HTML tags for the first time and never looked back since.",
   motivation:
     "Besides coding, I'm always eager to explore new technologies and methodologies to keep up with the ever-evolving tech landscape. In my free time, as you might imagine from the photos, I love to travel, spend time outdoors, read, and I'm not averse to learning new things, such as personal finance.",
   explore:
