@@ -1,4 +1,4 @@
-import {
+/* import {
   faGithub,
   faLinkedin,
   faWhatsapp,
@@ -30,3 +30,4 @@ export const contactLinks = [
     text: "Linkedin",
   },
 ];
+ */

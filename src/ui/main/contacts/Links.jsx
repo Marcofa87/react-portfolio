@@ -11,7 +11,8 @@ import { SiGmail } from "react-icons/si";
 export default function Links() {
   const { t } = useTranslation();
   const linkClass = "text-4xl border rounded-3xl p-4 mb-2 ";
-  const listClass = "m-2 p-4 flex items-center";
+  const listClass =
+    "m-2 p-4 flex items-center underline text-xl hover:text-2xl ease-in duration-200";
 
   const contactLinks = [
     {
