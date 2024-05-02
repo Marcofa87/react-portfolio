@@ -3,7 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./ui/footer/Footer";
 import "./index.css";
 import Loader from "./ui/loading/Loader";
-import { useTheme } from "./context/ThemeContext";
+import { useTheme } from "./context/theme/ThemeContext";
 
 const About = lazy(() => import("./pages/About"));
 const ProjectsCard = lazy(() => import("./pages/ProjectsCard"));

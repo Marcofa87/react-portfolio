@@ -1,4 +1,4 @@
-import { useTheme } from "../../../context/ThemeContext";
+import { useTheme } from "../../../context/theme/ThemeContext";
 
 export default function NavbarImage() {
   const { theme } = useTheme();

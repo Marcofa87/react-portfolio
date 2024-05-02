@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import thai from "../../public/assets/app_pictures/thai.webp";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/theme/ThemeContext";
 
 export default function About() {
   const { t } = useTranslation();

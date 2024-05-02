@@ -1,6 +1,6 @@
 import { saveAs } from "file-saver";
 import Buttons from "../../../shared/Buttons";
-import { useTheme } from "../../../context/ThemeContext";
+import { useTheme } from "../../../context/theme/ThemeContext";
 
 const DownloadPdf = () => {
   const { textThemeColor, borderButton } = useTheme();

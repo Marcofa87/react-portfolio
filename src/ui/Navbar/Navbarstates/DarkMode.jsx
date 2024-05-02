@@ -1,4 +1,4 @@
-import { useTheme } from "../../../context/ThemeContext";
+import { useTheme } from "../../../context/theme/ThemeContext";
 import Buttons from "../../../shared/Buttons";
 
 export default function DarkMode() {
