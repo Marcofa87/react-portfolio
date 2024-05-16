@@ -7,7 +7,7 @@ const DownloadPdf = () => {
 
   const handleDownload = () => {
     // URL del tuo file PDF
-    const pdfUrl = "../../../../public/assets/CV - Marco Falasca.pdf";
+    const pdfUrl = "../../assets/CV - Marco Falasca.pdf";
 
     // Nome del file PDF
     const pdfFileName = "Marco_Falasca_resume.pdf";
