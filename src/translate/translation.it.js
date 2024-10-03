@@ -2,8 +2,7 @@ const resourcesIt = {
   greeting: "Ciao! Sono",
   name: "Marco Falasca",
   role: "Sviluppatore Front-End",
-  about:
-    "Studio lo sviluppo web Front-End da 2 anni. Sentiti libero di contattarmi se sei interessato!",
+  about: "Contattami se sei interessato!",
   welcome:
     "Benvenuti nel mio angolo del web! Sono Marco Falasca, uno sviluppatore Front-End. Nel mio percorso come sviluppatore, ho affinato le mie competenze in HTML, CSS e JavaScript, fino a costruire le mie prime applicazioni e poi adottare lo sviluppo più moderno utilizzando framework come Angular o React.",
   skills:

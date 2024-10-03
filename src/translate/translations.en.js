@@ -2,8 +2,7 @@ const resourcesEn = {
   greeting: "Hello! I'm",
   name: "Marco Falasca",
   role: "Front-End Developer",
-  about:
-    "I've been studying Front-End Web development for 2 years. Feel free to contact me if you're interested!",
+  about: "Contact me if you are interested!",
   welcome:
     "Welcome to my corner of the web! I'm Marco Falasca, a Front-End developer. Along my journey as a developer, I've honed my skills in HTML, CSS, and JavaScript, eventually building my first applications and then embracing more modern development using frameworks like Angular or React. ",
   skills:
