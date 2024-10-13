@@ -5,6 +5,7 @@ import "./index.css";
 import Loader from "./ui/loading/Loader";
 import { useTheme } from "./context/theme/ThemeContext";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const About = lazy(() => import("./pages/About"));
 const ProjectsCard = lazy(() => import("./pages/ProjectsCard"));
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <Analytics />
+      <SpeedInsights />
       <div
         className={` font-bold min-h-screen w-full font-mono flex flex-col ${backgroundThemeColor} ${textThemeColor}`}
       >
