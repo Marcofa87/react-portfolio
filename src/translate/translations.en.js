@@ -20,7 +20,8 @@ const resourcesEn = {
   github: "Github",
   email: "Send me an Email",
   linkedin: "Linkedin",
-  houseListing: "",
+  houseListing:
+    " A Vue.js app built to manage a list of apartments. You can view apartment data fetched from the server, and perform basic CRUD operations (create, read, update, delete) on the list.",
   bookList:
     "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price.",
   userList: "List of users managed by useState.",

@@ -6,15 +6,15 @@ export const useProjectData = () => {
   return [
     {
       id: 1,
-      image: "../../../assets//app_pictures/filter-book-app.webp",
+      image: "../../../public/assets/app_pictures/house-listing.png",
       title: "House-Listing-App",
-      description: t("bookList"),
+      description: t("houseListing"),
       sourceCodeLink: {
-        link: "https://github.com/Marcofa87/filter-book-app-react",
+        link: "https://github.com/Marcofa87/House-listing",
         source: "Source code",
       },
       demoLink: {
-        link: "https://book-table-app-react.netlify.app/",
+        link: "",
         demo: "Demo",
       },
     },

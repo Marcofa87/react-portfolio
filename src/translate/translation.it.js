@@ -20,7 +20,8 @@ const resourcesIt = {
   github: "Github",
   email: "Inviami una Email",
   linkedin: "Linkedin",
-  houseListing: "",
+  houseListing:
+    " Un'app Vue.js sviluppata per gestire un elenco di appartamenti. È possibile visualizzare i dati degli appartamenti recuperati dal server ed eseguire le operazioni CRUD di base (crea, leggi, aggiorna, elimina) sull'elenco.",
   bookList:
     "Elenco di libri visualizzato su una tabella. Puoi filtrare l'elenco per: Titolo, Autore, Data di pubblicazione, Prezzo.",
 
