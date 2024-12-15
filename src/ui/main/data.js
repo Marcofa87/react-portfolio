@@ -6,7 +6,7 @@ export const useProjectData = () => {
   return [
     {
       id: 1,
-      image: "../../../public/assets/app_pictures/house-listing.png",
+      image: "../../../assets/app_pictures/house-listing.png",
       title: "House-Listing-App",
       description: t("houseListing"),
       sourceCodeLink: {
@@ -20,7 +20,7 @@ export const useProjectData = () => {
     },
     {
       id: 2,
-      image: "../../../assets//app_pictures/filter-book-app.webp",
+      image: "../../../assets/app_pictures/filter-book-app.webp",
       title: "Filter Book React",
       description: t("bookList"),
       sourceCodeLink: {
