@@ -20,17 +20,15 @@ const resourcesEn = {
   github: "Github",
   email: "Send me an Email",
   linkedin: "Linkedin",
+  houseListing: "",
   bookList:
     "Book list displayed on a table. You can filter the list by: Title, Author, Release date, Price.",
-  productApp: "App for implementing products in a table.",
   userList: "List of users managed by useState.",
   tipCalculator:
     "Layout that displays how much the users have to give for tip.",
   responsiveWebpage:
     "Responsive Webpage that displays for small, medium and large devices.",
   reactCalculator: "Calculator made with React.",
-  courseTable: "Table of course detail made with Angular with CRUD principles.",
-  textExpander: "Text expander made with the same component customized.",
   netflixClone: "Netflix clone made with Html, Css and JS (Before ECMA 6).",
 };
 
