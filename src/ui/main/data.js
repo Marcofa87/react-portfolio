@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export const useProjectData = () => {
   const { t } = useTranslation();
 
-  const projectData = [
+  return [
     {
       id: 1,
       image: "../../../assets//app_pictures/filter-book-app.webp",
@@ -20,20 +20,6 @@ export const useProjectData = () => {
     },
     {
       id: 2,
-      image: "../../../assets/app_pictures/dashboard.webp",
-      title: "Dashboard Inventory",
-      description: t("productApp"),
-      sourceCodeLink: {
-        link: "https://github.com/Marcofa87/inventory-dashboard",
-        source: "Source code",
-      },
-      demoLink: {
-        link: "https://inventory-dashboard-routing.netlify.app/",
-        demo: "Demo",
-      },
-    },
-    {
-      id: 3,
       image: "../../../assets/app_pictures/users_list.webp",
       title: "Users List ",
       description: t("userList"),
@@ -47,21 +33,7 @@ export const useProjectData = () => {
       },
     },
     {
-      id: 4,
-      image: "../../../assets/app_pictures/my_tip_calulator.webp",
-      title: "Tip Calculator",
-      description: t("tipCalculator"),
-      sourceCodeLink: {
-        link: "https://github.com/Marcofa87/tip-calculator",
-        source: "Source code",
-      },
-      demoLink: {
-        link: "https://my-personal-tip-calculator.netlify.app/",
-        demo: "Demo",
-      },
-    },
-    {
-      id: 5,
+      id: 3,
       image: "../../../assets/app_pictures/responsive_layer.webp",
       title: "Responsive Css",
       description: t("responsiveWebpage"),
@@ -75,7 +47,7 @@ export const useProjectData = () => {
       },
     },
     {
-      id: 6,
+      id: 4,
       image: "../../../assets/app_pictures/calculator_app.webp",
       title: "Calculator",
       description: t("reactCalculator"),
@@ -89,35 +61,7 @@ export const useProjectData = () => {
       },
     },
     {
-      id: 7,
-      image: "../../../assets/app_pictures/master_crud_detail.webp",
-      title: "Master Crud Detail",
-      description: t("courseTable"),
-      sourceCodeLink: {
-        link: "https://github.com/Marcofa87/Master-Detail",
-        source: "Source code",
-      },
-      demoLink: {
-        link: "https://master-detail-angular.netlify.app/",
-        demo: "Demo",
-      },
-    },
-    {
-      id: 8,
-      image: "../../../assets/app_pictures/text_expander.webp",
-      title: "Text expander",
-      description: t("textExpander"),
-      sourceCodeLink: {
-        link: "https://github.com/Marcofa87/Text-expander",
-        source: "Source code",
-      },
-      demoLink: {
-        link: "https://my-text-expander.netlify.app/",
-        demo: "Demo",
-      },
-    },
-    {
-      id: 9,
+      id: 5,
       image: "../../../assets/app_pictures/js_netflix.webp",
       title: "Netlifix Js",
       description: t("netflixClone"),
@@ -130,7 +74,20 @@ export const useProjectData = () => {
         demo: "Demo",
       },
     },
-  ];
 
-  return projectData;
+    {
+      id: 6,
+      image: "../../../assets/app_pictures/my_tip_calulator.webp",
+      title: "Tip Calculator",
+      description: t("tipCalculator"),
+      sourceCodeLink: {
+        link: "https://github.com/Marcofa87/tip-calculator",
+        source: "Source code",
+      },
+      demoLink: {
+        link: "https://my-personal-tip-calculator.netlify.app/",
+        demo: "Demo",
+      },
+    },
+  ];
 };
