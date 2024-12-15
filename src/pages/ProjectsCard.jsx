@@ -56,6 +56,7 @@ export default function ProjectsCard() {
               className="text-blue-700 hover:underline font-bold text-xl"
               target="_blank"
               rel="noopener noreferrer"
+              disabled={!currentProject.sourceCodeLink.link}
             >
               {currentProject.sourceCodeLink.source}
             </a>
@@ -64,6 +65,7 @@ export default function ProjectsCard() {
               className="text-blue-700 hover:underline font-bold text-xl"
               target="_blank"
               rel="noopener noreferrer"
+              disabled={!currentProject.demoLink.link}
             >
               {currentProject.demoLink.demo}
             </a>
