@@ -56,7 +56,7 @@ export default function ProjectsCard() {
               className="text-blue-700 hover:underline font-bold text-xl"
               target="_blank"
               rel="noopener noreferrer"
-              disabled={!currentProject.sourceCodeLink.link}
+              disabled={!currentProject.sourceCodeLink.link} // Disable if link is absent
             >
               {currentProject.sourceCodeLink.source}
             </a>
